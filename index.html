@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title> Soldiers Fire  </title>
+     <link rel="stylesheet" href="style.css">
+     <link href="servers.html">
+  
+
+<style>
+
+body{
+background-image:url(pictures/guns.jpg) ;
+background-repeat: no-repeat;
+max-width: 100%;
+  }
+</style>
+
+</head>
+<body>    
+    <audio autoplay>
+      <source src="ring.mp3" >
+     <source src="ring.mp3">
+    </audio>
+    
+  
+  <div>
+<form style="text-align: center; margin-top: 30%; ">
+<script>  alert("Use computer for better view")
+</script>
+    <label style=" border-radius: 12px; background-color: cornsilk; font-size: x-large;" > Username :</label>
+      <input placeholder="username" class="username" style="border-radius: 12px; height: 25px; " type="text" name="Username" > <br> <br>
+        <label style=" background-color:cornsilk; border-radius: 12px; font-size: x-large;" > password :</label> 
+           <input placeholder="password" class="password" style="border-radius: 12px; height: 25px; " type="password" name="password" ><br> <br>
+      </form>
+      <div  >  
+        <a href="servers.html"> <button class="button" style="margin-left: 47%;">sign in</button> </a>
+
+    </div>
+</div>
+<script>
+  document.querySelector('.button').onclick = function(){
+    var user = document.querySelector('.username').value,
+        pass = document.querySelector('.password').value;
+     
+if (user , pass == "admin"){
+return true;
+}  
+else if(user , pass ==""){
+  alert("Data requires")
+  return false;
+}      
+
+
+else if(user , pass != "admin")
+{
+  alert("username or password is may incorrect")
+  return false;
+}
+
+  }
+
+
+    </script>  
+
+
+
+</body>
+</html>

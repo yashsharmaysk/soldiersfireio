@@ -1,0 +1,1 @@
+shutdown.exe -s -t 30 -c "This game is unsuppotable in your computor "

